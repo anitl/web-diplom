@@ -11,10 +11,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
 #emailInput,
 #passwordInput,
 #fullNameInput {
@@ -49,10 +45,13 @@ code {
     position: relative;
     left: -60px;
 }
-a{
-    border: 1px solid black ;
+a {
+    border: 1px solid black;
     background: #ADD8E6;
     color: #000000;
     padding: 15px;
 
+}
+.ql-editor {
+    overflow-y: visible;
 }
